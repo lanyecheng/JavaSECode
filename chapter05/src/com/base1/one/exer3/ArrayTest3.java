@@ -1,4 +1,4 @@
-package com.base.learn;
+package com.base1.one.exer3;
 
 import java.util.Scanner;
 

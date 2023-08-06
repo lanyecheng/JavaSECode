@@ -1,4 +1,4 @@
-package com.base.learn;
+package com.base3.common_algorithm.exer3;
 
 /**
  * @Author myf15609

@@ -1,4 +1,4 @@
-package com.base.learn;
+package com.base3.common_algorithm.exer5;
 
 /**
  * @Author myf15609
@@ -7,7 +7,7 @@ package com.base.learn;
  */
 public class TestArrayReverse1 {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] arr = {34, 54, 3, 2, 65, 7, 34, 5, 76, 34, 67};
         for (int i = 0; i < arr.length / 2; i++) {
             int temp = arr[i];
             arr[i] = arr[arr.length - 1 - i];

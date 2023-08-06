@@ -1,6 +1,4 @@
-package com.base.learn;
-
-import sun.management.Agent;
+package com.base3.common_algorithm.exer2;
 
 /**
  * @Author myf15609
