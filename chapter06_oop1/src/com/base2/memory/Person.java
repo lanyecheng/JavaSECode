@@ -5,19 +5,20 @@ package com.base2.memory;
  * @Date 2023/4/12
  */
 public class Person {
+
     String name;
     int age;
-    int sex;
+    int gender;
 
-    public void study() {
-        System.out.println("studying");
+    public void eat() {
+        System.out.println("人吃饭");
     }
 
-    public void showAge() {
-        System.out.println(age);
+    public void sleep(int hour) {
+        System.out.println("人至少保证每天" + hour + "小时的睡眠 💤");
     }
 
-    public void addAge(int i) {
-        age += i;
+    public void interests(String hobby) {
+        System.out.println("我的爱好是：" + hobby);
     }
 }
