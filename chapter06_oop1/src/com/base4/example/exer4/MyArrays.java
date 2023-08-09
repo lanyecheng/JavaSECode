@@ -1,7 +1,4 @@
-package com.base1.exer4;
-
-import sun.java2d.opengl.OGLSurfaceData;
-import sun.print.PSPrinterJob;
+package com.base4.example.exer4;
 
 /**
  * 根据上一章数组中的常用算法操作，自定义一个操作 int[] 的工具类
@@ -79,7 +76,7 @@ public class MyArrays {
             if (i == 0) {
                 System.out.print(arr[i]);
             } else {
-                System.out.print("," + arr[i]);
+                System.out.print(", " + arr[i]);
             }
         }
         System.out.println("]");

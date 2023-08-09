@@ -1,4 +1,4 @@
-package com.base1.exer4;
+package com.base4.example.exer4;
 
 import java.util.Arrays;
 
@@ -39,6 +39,6 @@ public class MyArraysTest {
         // 排序后遍历
         arrs.print(arr);
 
-        System.out.println("查找：" + arrs.linearSearch(arr, 30));
+        System.out.println("查找：" + arrs.linearSearch(arr, 12));
     }
 }

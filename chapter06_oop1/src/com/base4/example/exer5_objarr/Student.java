@@ -1,4 +1,4 @@
-package com.base1.exer5;
+package com.base4.example.exer5_objarr;
 
 /**
  * @Author myf15609

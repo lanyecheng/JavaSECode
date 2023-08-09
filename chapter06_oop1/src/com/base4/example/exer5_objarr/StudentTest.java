@@ -1,4 +1,4 @@
-package com.base1.exer5;
+package com.base4.example.exer5_objarr;
 
 /**
  * 定义类Student，包含三个属性：学号number(int)，年级state(int)，成绩score(int)。
@@ -12,16 +12,17 @@ package com.base1.exer5;
 public class StudentTest {
     public static void main(String[] args) {
 
-        // 创建 Student[]
+        // 创建20个学生对象 Student[]
         Student[] students = new Student[20];
 
         // 使用循环给数组的元素赋值
         for (int i = 0; i < students.length; i++) {
             students[i] = new Student();
+            // [1,20]，学号
             students[i].number = (i + 1);
-            // [1,6]
+            // [1,6]，年级
             students[i].state = (int) (Math.random() * 6 + 1);
-            // [0,100]
+            // [0,100]，成绩
             students[i].score = (int) (Math.random() * 101);
         }
 
@@ -42,6 +43,7 @@ public class StudentTest {
         for (int i = 0; i < students.length; i++) {
             for (int j = 0; j < students.length - 1 - i; j++) {
                 if (students[j].score > students[j + 1].score) {
+                    // 这里需要注意，根据成绩，交换的是学生对象，这里容易出错
                     Student temp = students[j];
                     students[j] = students[j + 1];
                     students[j + 1] = temp;

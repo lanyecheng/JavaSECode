@@ -1,4 +1,4 @@
-package com.base1.exer5_obj;
+package com.base4.example.exer5_objarr1;
 
 /**
  * 定义类Student，包含三个属性：学号number(int)，年级state(int)，成绩score(int)。
@@ -18,10 +18,11 @@ public class StudentTest {
         // 使用循环给数组的元素赋值
         for (int i = 0; i < students.length; i++) {
             students[i] = new Student();
+            // [1,20]，学号
             students[i].number = (i + 1);
-            // [1,6]
+            // [1,6]，年级
             students[i].state = (int) (Math.random() * 6 + 1);
-            // [0,100]
+            // [0,100]，成绩
             students[i].score = (int) (Math.random() * 101);
         }
 

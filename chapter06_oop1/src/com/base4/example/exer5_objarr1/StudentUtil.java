@@ -1,4 +1,4 @@
-package com.base1.exer5_obj;
+package com.base4.example.exer5_objarr1;
 
 /**
  * @Author myf15609
@@ -9,7 +9,7 @@ public class StudentUtil {
     /**
      * 打印出指定年级的学生信息
      *
-     * @param students 数组
+     * @param students 学生数组
      * @param state    年级
      */
     public void printStudentsWithState(Student[] students, int state) {
@@ -23,7 +23,7 @@ public class StudentUtil {
     /**
      * 遍历
      *
-     * @param students 数组
+     * @param students 学生数组
      */
     public void printStudents(Student[] students) {
         for (Student student : students) {
@@ -33,7 +33,7 @@ public class StudentUtil {
 
     /**
      * 使用冒泡排序按学生成绩排序
-     * @param students 数组
+     * @param students 学生数组
      */
     public void sortStudents(Student[] students) {
         for (int i = 0; i < students.length; i++) {

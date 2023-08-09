@@ -1,4 +1,4 @@
-package com.base1.exer6;
+package com.base5.method_more._02args;
 
 /**
  * n个字符串进行拼接，每个字符串之间使用某个字符进行分割，如果没有传入字符串，那么返回空字符串
@@ -17,7 +17,7 @@ public class StringConCatTest {
 
     }
 
-    public String conCat(String operator, String... strs) {
+    public String conCat(String operator, String ... strs) {
         String result = "";
         for (int i = 0; i < strs.length; i++) {
             if (i == 0) {
