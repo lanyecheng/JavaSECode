@@ -60,15 +60,15 @@ public class CustomerView {
      */
     public void addNewCustomer() {
         System.out.println("---------------------------添加客户---------------------------");
-        System.out.println("姓名：");
+        System.out.print("姓名：");
         String name = CMUtility.readString(10);
-        System.out.println("性别：");
+        System.out.print("性别：");
         char gender = CMUtility.readChar();
-        System.out.println("年龄：");
+        System.out.print("年龄：");
         int age = CMUtility.readInt();
-        System.out.println("电话：");
+        System.out.print("电话：");
         String phone = CMUtility.readString(11);
-        System.out.println("邮箱：");
+        System.out.print("邮箱：");
         String email = CMUtility.readString(30);
 
         // 将上述数据封装到对象中
