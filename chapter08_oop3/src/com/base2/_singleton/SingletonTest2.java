@@ -6,7 +6,9 @@ package com.base2._singleton;
  */
 public class SingletonTest2 {
     public static void main(String[] args) {
-
+        Order order1 = Order.getInstance();
+        Order order2 = Order.getInstance();
+        System.out.println(order1 == order2);
     }
 }
 
