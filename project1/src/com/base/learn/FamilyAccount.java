@@ -7,7 +7,7 @@ package com.base.learn;
  */
 public class FamilyAccount{
     public static void main(String[] args){
-        String details = "收支\t账户金额\t收支金额\t说    明\n";
+        String details = "收支\t\t账户金额\t\t收支金额\t\t说明\n";
         int balance = 10000;
         boolean isFlag = true;
 
@@ -33,7 +33,7 @@ public class FamilyAccount{
                     System.out.print("本次收入说明：");
                     String info1 = Utility.readString();
                     balance += money1;
-                    details += "收入\t" + balance + "\t\t" + money1 + "\t\t" + info1 + "\n";
+                    details += "收入\t\t" + balance + "\t\t" + money1 + "\t\t" + info1 + "\n";
                     System.out.println("---------------------登记完成---------------------");
                     break;
 
@@ -48,7 +48,7 @@ public class FamilyAccount{
                     }
                     System.out.print("本次支出说明：");
                     String info2 = Utility.readString();
-                    details += "支出\t" + balance + "\t\t" + money2 + "\t\t" + info2 + "\n";
+                    details += "支出\t\t" + balance + "\t\t" + money2 + "\t\t" + info2 + "\n";
                     System.out.println("---------------------登记完成---------------------");
                     break;
 

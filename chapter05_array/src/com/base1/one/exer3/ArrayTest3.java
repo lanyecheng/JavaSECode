@@ -42,7 +42,8 @@ public class ArrayTest3 {
             } else {
                 grade = 'D';
             }
-            System.out.println("Student " + i + " socre is " + scores[i] + ", grade is " + grade);
+            System.out.println("Student " + i + " score is " + scores[i] + ", grade is " + grade);
         }
+        scanner.close();
     }
 }

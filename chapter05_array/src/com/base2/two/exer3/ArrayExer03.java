@@ -41,7 +41,7 @@ public class ArrayExer03 {
                     System.out.print("架构师\t");
                     break;
             }
-            for (int j = 0; j < employees[i].length; j++) {
+            for (int j = 1; j < employees[i].length; j++) {
                 System.out.print(employees[i][j] + "\t");
             }
             System.out.println();
