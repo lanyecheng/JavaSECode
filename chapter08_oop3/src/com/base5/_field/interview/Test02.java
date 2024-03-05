@@ -19,6 +19,9 @@ public class Test02 {
     }
 
     public static void method() {
+        // 前++ 先自加1，再运算
+        // 后++ 先运算，再自加1
+        // y = -1 + 1
         y = z++ + ++z;
     }
 

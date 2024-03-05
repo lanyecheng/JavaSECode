@@ -18,11 +18,10 @@ public class ArrayExer {
 
         String tel = "";
 
-        for (int i = 0; i < index.length; i++) {
-            int value = index[i];
+        for (int value : index) {
             tel += arr[value];
         }
-        System.out.println("联系方式：" + tel); //
+        System.out.println("联系方式为：" + tel);
 
     }
 }
