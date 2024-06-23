@@ -20,15 +20,12 @@ public class Student {
     }
 
     public Student(String name, int age, String school) {
-        this.name = name;
-        this.age = age;
+        this(name, age);
         this.school = school;
     }
 
     public Student(String name, int age, String school, String major) {
-        this.name = name;
-        this.age = age;
-        this.school = school;
+        this(name, age, school);
         this.major = major;
     }
 

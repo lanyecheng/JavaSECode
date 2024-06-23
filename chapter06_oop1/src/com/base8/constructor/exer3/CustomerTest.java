@@ -14,6 +14,6 @@ public class CustomerTest {
         customer.getAccount().withdraw(300);
         customer.getAccount().withdraw(200);
 
-        System.out.println(customer.toString());
+        System.out.println(customer);
     }
 }

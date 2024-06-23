@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class PayrollSystem {
     public static void main(String[] args) {
-        Employee[] employees = new Employee[2];
+        Employee[] employees = new Employee[2]; // 对象数组存储的是地址值，并未实例化
         employees[0] = new SalariedEmployee("张三", 1001, new MyDate(1992, 11, 11), 28000);
         employees[1] = new HourlyEmployee("李四", 1001, new MyDate(1992, 11, 11), 230, 100);
 

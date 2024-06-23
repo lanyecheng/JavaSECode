@@ -10,6 +10,6 @@ public class BookTest {
         b.setBookName("Java核心技术");
         b.setAuthor("凯·霍斯特曼");
         b.setPrice(80.5);
-        System.out.println(b.toString());
+        System.out.println(b);
     }
 }

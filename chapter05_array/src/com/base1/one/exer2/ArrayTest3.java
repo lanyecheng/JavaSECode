@@ -16,7 +16,7 @@ public class ArrayTest3 {
 
         // 从键盘获取指定的数值，使用 scanner
         Scanner scanner = new Scanner(System.in);
-        System.out.println("请输入[1-12]范围的整数：");
+        System.out.print("请输入[1-12]范围的整数：");
         int number = scanner.nextInt();
 
         // 针对获取的数据进行判断

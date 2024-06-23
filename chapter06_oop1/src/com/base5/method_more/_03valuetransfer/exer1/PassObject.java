@@ -21,6 +21,5 @@ public class PassObject {
             c.radius = i;
             System.out.println(c.radius + "\t\t\t" + c.findArea());
         }
-        c.radius = i;
     }
 }

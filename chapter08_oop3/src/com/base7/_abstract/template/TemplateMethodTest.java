@@ -9,6 +9,7 @@ public class TemplateMethodTest {
         BankTemplateMethod btm1 = new DrawMoney();
         btm1.process();
 
+        System.out.println("-------------");
         BankTemplateMethod btm2 = new ManagMoney();
         btm2.process();
 
