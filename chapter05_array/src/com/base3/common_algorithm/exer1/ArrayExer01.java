@@ -9,12 +9,14 @@ public class ArrayExer01 {
     public static void main(String[] args) {
         // 1.动态初始化创建数组
         int[] arr = new int[10];
+
         // 2.通过循环给数组元素赋值
         for (int i = 0; i < arr.length; i++) {
             arr[i] = (int) (Math.random() * (99 - 10 + 1)) + 10;
             System.out.print(arr[i] + "\t");
         }
         System.out.println();
+
         // 3. 最大值
         int max = arr[0];
         for (int i = 1; i < arr.length; i++) {

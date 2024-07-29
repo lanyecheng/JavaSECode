@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 /**
  * @Author myf15609
- * @Date 2023/4/5
+ * @Date 2023/4/5 <br>
  * 从键盘读入学生的成绩，找出最高分，并输出学生成绩等级
  */
 public class ArrayTest3 {
     public static void main(String[] args) {
         // 1.根据提示，获取学生人数
-        System.out.println("请输入学生人数：");
+        System.out.print("请输入学生人数：");
         Scanner scanner = new Scanner(System.in);
         int count = scanner.nextInt();
 

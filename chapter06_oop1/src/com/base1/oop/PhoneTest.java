@@ -7,7 +7,6 @@ package com.base1.oop;
 public class PhoneTest {
     public static void main(String[] args) {
         // 创建 Phone 的对象
-
         Phone p1 = new Phone();
 
         // 通过 Phone 的对象，调用其内部的属性或方法

@@ -19,7 +19,7 @@ public class WhileTest3 {
         int count = 1;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("请输入一个整数（1-10）:");
+        System.out.print("请输入一个整数（1-10）:");
         int guess = scanner.nextInt();
 
         while (random != guess) {
@@ -28,12 +28,12 @@ public class WhileTest3 {
             }else {
                 System.out.println("猜小了");
             }
-            System.out.println("请输入一个整数（1-10）:");
+            System.out.print("请输入一个整数（1-10）:");
             guess = scanner.nextInt();
             count++;
         }
         System.out.println("猜中了");
         System.out.println("一共猜了:" + count + "次");
-
+        scanner.close();
     }
 }

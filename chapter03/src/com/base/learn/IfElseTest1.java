@@ -1,5 +1,7 @@
 package com.base.learn;
 
+import java.util.Scanner;
+
 /**
  * @Author myf15609
  * @Date 2023/4/5
@@ -7,11 +9,13 @@ package com.base.learn;
  */
 public class IfElseTest1 {
     public static void main(String[] args) {
-        int heartBeats = 110;
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("请输入当前心率(数字)：");
+        int heartBeats = scanner.nextInt();
         if (heartBeats < 60 || heartBeats > 100) {
             System.out.println("你需要进一步检查");
         }
         System.out.println("体检结束");
+        scanner.close();
     }
 }

@@ -1,5 +1,7 @@
 package com.base.learn;
 
+import java.util.Scanner;
+
 /**
  * @Author myf15609
  * @Date 2023/4/5
@@ -16,8 +18,9 @@ package com.base.learn;
  */
 public class IfElesTest3 {
     public static void main(String[] args) {
-        int score = 55; // 成绩
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("请输入成绩[0,100]：");
+        int score = scanner.nextInt();
         // 默认成绩范围为[0,100]
         if (score == 100) {
             System.out.println("奖励一辆跑车");
@@ -28,5 +31,6 @@ public class IfElesTest3 {
         } else {
             System.out.println("胖揍一顿");
         }
+        scanner.close();
     }
 }

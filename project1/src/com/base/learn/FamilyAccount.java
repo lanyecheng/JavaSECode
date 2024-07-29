@@ -5,13 +5,13 @@ package com.base.learn;
  * @Date 2023/4/5
  * 简单的家庭收支练习，主要针对之前学习的知识点进行回顾
  */
-public class FamilyAccount{
-    public static void main(String[] args){
+public class FamilyAccount {
+    public static void main(String[] args) {
         String details = "收支\t\t账户金额\t\t收支金额\t\t说明\n";
         int balance = 10000;
         boolean isFlag = true;
 
-        do{
+        do {
             System.out.println("\n-----------------家庭收支记账软件-----------------\n");
             System.out.println("                    1 收支明细");
             System.out.println("                    2 登记收入");
@@ -20,7 +20,7 @@ public class FamilyAccount{
             System.out.print("                  请选择< 1~4 > ");
 
             char menu = Utility.readMenuSelection();
-            switch(menu){
+            switch (menu) {
                 case '1':
                     System.out.println("-----------------当前收支明细记录-----------------");
                     System.out.println(details);
@@ -40,9 +40,9 @@ public class FamilyAccount{
                 case '3':
                     System.out.print("本次支出金额：");
                     int money2 = Utility.readNumber();
-                    if(balance > money2){
+                    if (balance > money2) {
                         balance -= money2;
-                    }else{
+                    } else {
                         System.out.println("支出超出账户可用额度！！！");
                         break;
                     }
@@ -55,9 +55,9 @@ public class FamilyAccount{
                 case '4':
                     System.out.print("请确认是否退出(Y/N): ");
                     char exit = Utility.readConfirmSelection();
-                    if(exit == 'Y') isFlag = false;
+                    if (exit == 'Y') isFlag = false;
                     break;
             }
-        }while(isFlag);
+        } while (isFlag);
     }
 }

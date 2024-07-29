@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class XunTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.print("请开始输入整数，输入0结束:");
         int positive_int = 0;
         int negative_int = 0;
         while (true) {

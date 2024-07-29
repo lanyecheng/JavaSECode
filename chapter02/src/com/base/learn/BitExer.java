@@ -34,9 +34,9 @@ public class BitExer {
 
 
         // 方式1，使用临时变量
-//        int temp = m;
-//        m = n;
-//        n = temp;
-//        System.out.println("m = " + m + ", n = " + n);
+        int temp = m;
+        m = n;
+        n = temp;
+        System.out.println("m = " + m + ", n = " + n);
     }
 }

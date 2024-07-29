@@ -33,12 +33,14 @@ public class StudentTest {
             }
         }
         System.out.println();
+
         // 问题二：使用冒泡排序按学生成绩排序，并遍历所有学生信息
         // 排序前
         for (Student student : students) {
             student.info();
         }
         System.out.println();
+
         // 排序
         for (int i = 0; i < students.length; i++) {
             for (int j = 0; j < students.length - 1 - i; j++) {
@@ -50,10 +52,10 @@ public class StudentTest {
                 }
             }
         }
+
         // 排序后
         for (Student student : students) {
             student.info();
         }
-
     }
 }

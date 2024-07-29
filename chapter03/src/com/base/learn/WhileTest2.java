@@ -20,6 +20,6 @@ public class WhileTest2 {
             num++;
         }
         System.out.println("偶数的个数为：" + count);
-        System.out.println("偶数的和为：" + num);
+        System.out.println("偶数的和为：" + sum);
     }
 }

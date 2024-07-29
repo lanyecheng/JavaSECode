@@ -38,8 +38,5 @@ public class ArrayExer04_1 {
         for (int i : array1) {
             System.out.print(i + "\t");
         }
-
-
-
     }
 }

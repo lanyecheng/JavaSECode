@@ -31,11 +31,13 @@ public class MyArraysTest {
 
         // 反转
         arrs.reverse(arr);
+
         // 反转后遍历数组
         arrs.print(arr);
 
         // 排序
         arrs.sort(arr);
+
         // 排序后遍历
         arrs.print(arr);
 

@@ -9,7 +9,7 @@ public class Student {
     int state;
     int score;
 
-    public void info(){
+    public void info() {
         System.out.println("number : " + number
                 + ",state : " + state + ",score : " + score);
     }

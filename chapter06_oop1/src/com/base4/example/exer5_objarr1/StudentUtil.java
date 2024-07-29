@@ -33,6 +33,7 @@ public class StudentUtil {
 
     /**
      * 使用冒泡排序按学生成绩排序
+     *
      * @param students 学生数组
      */
     public void sortStudents(Student[] students) {
@@ -46,6 +47,4 @@ public class StudentUtil {
             }
         }
     }
-
-
 }

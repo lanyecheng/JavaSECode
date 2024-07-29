@@ -10,14 +10,14 @@ public class ArrayExer02 {
         int sum = 0;
         int max = scores[0];
         int min = scores[0];
-        for (int i = 0; i < scores.length; i++) {
-            if (max < scores[i]) {
-                max = scores[i];
+        for (int score : scores) {
+            if (max < score) {
+                max = score;
             }
-            if (min > scores[i]) {
-                min = scores[i];
+            if (min > score) {
+                min = score;
             }
-            sum += scores[i];
+            sum += score;
         }
         int avg = (sum - max - min) / (scores.length - 2);
         System.out.println("平均值：" + avg);
