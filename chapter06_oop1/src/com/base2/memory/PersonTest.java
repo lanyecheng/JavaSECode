@@ -12,7 +12,7 @@ public class PersonTest {
         p1.age = 24;
         p1.gender = '男';
 
-        System.out.println("name = " + p1.name + ",age = " + p1.age + ", gender = " + p1.gender);
+        System.out.println("name = " + p1.name + ", age = " + p1.age + ", gender = " + p1.gender);
 
         p1.eat();
         p1.sleep(8);

@@ -24,7 +24,7 @@ public class FamilyAccount {
                 case '1':
                     System.out.println("-----------------当前收支明细记录-----------------");
                     System.out.println(details);
-                    System.out.println("--------------------------------------------------");
+                    System.out.println("------------------------------------------------");
                     break;
 
                 case '2':

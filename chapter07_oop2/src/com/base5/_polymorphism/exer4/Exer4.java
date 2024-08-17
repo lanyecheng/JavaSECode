@@ -9,8 +9,6 @@ public class Exer4 {
         meeting(new Man());
         System.out.println("-------");
         meeting(new Woman());
-
-
     }
 
     public static void meeting(Person person) {

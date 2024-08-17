@@ -18,7 +18,7 @@ public class AnimalTest {
             Dog dog = (Dog) animal;
             dog.watchDoor();
         }
-        if (animal instanceof Cat){
+        if (animal instanceof Cat) {
             Cat cat = (Cat) animal;
             cat.catchMouse();
         }

@@ -23,7 +23,7 @@ class Sub extends Base {
 public class FieldMethodTest {
     public static void main(String[] args) {
         Sub s = new Sub();
-        System.out.println(s.count);//20
+        System.out.println(s.count);// 20
         s.display();//20
 
         Base b = s;

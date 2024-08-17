@@ -10,7 +10,7 @@ public class PhoneTest {
         Phone p1 = new Phone();
 
         // 通过 Phone 的对象，调用其内部的属性或方法
-        // 各式：对象.属性 或 对象。方法
+        // 格式：对象.属性 或 对象.方法
 
         p1.name = "HuaWei Mate50";
         p1.price = 4999;

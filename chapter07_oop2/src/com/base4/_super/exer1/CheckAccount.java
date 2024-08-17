@@ -37,7 +37,6 @@ public class CheckAccount extends Account{
             overdraft -= amt - getBalance();
             // 把余额全部取出
             super.withdraw(getBalance());
-
         }else {
             System.out.println("超出可透支额度：" + overdraft);
         }

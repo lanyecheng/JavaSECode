@@ -8,7 +8,7 @@ public class Person {
 
     String name;
     int age;
-    int gender;
+    char gender;
 
     public void eat() {
         System.out.println("人吃饭");

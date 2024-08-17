@@ -20,7 +20,7 @@ public class InstanceTest {
             System.out.println("a Student");
         }
 
-        if (e instanceof Person) {
+        if (e != null) {
             System.out.println("a person");
         }
     }

@@ -4,7 +4,7 @@ package com.base5._polymorphism.exer4;
  * @Author myf15609
  * @Date 2023/8/19
  */
-public class Woman extends Person{
+public class Woman extends Person {
 
     @Override
     public void eat() {

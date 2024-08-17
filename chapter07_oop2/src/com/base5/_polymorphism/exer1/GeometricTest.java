@@ -10,6 +10,7 @@ public class GeometricTest {
 
         Circle c1 = new Circle("red", 1.0, 2.3);
         Circle c2 = new Circle("red", 1.0, 3.3);
+
         tt.dispplayGeometricObject(c1);
         tt.dispplayGeometricObject(c2);
 

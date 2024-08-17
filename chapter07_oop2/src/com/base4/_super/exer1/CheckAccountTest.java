@@ -15,7 +15,5 @@ public class CheckAccountTest {
 
         account.withdraw(3000);
         System.out.println("账户余额为：" + account.getBalance() + ",可透支额度为：" + account.getOverdraft());
-
-
     }
 }
