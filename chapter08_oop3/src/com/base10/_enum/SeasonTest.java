@@ -10,6 +10,7 @@ public class SeasonTest {
     }
 }
 
+// JDK5.0 之前的定义方式
 class Season {
     private final String SEASONNAME;//季节的名称
     private final String SEASONDESC;//季节的描述
@@ -31,6 +32,4 @@ class Season {
                 ", SEASONDESC='" + SEASONDESC + '\'' +
                 '}';
     }
-
-
 }

@@ -39,6 +39,6 @@ class Sub extends Base {
 }
 
 // base
-// sub : 100，需要留意多态性
+// sub : 100
 // sub
 // base : 70

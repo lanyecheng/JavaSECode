@@ -15,11 +15,10 @@ public class GeometricTest {
         if (isEquals) {
             System.out.println("面积相等");
         }else {
-            System.out.println("面积不想等");
+            System.out.println("面积不相等");
         }
 
         displayGeometricObject(new MyRectangle("blue", 1.5, 2.0, 3.5));
-
     }
 
     /**

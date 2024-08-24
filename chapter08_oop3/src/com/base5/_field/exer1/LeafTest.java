@@ -52,6 +52,7 @@ class Leaf extends Mid {
         System.out.println("Leaf 空参构造器");
     }
 }
+
 public class LeafTest {
     public static void main(String[] args) {
         new Leaf();

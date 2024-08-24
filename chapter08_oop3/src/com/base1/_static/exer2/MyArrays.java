@@ -129,11 +129,12 @@ public class MyArrays {
 
     /**
      * 数组升序 / 降序
-     * @param arr 待排数组
+     *
+     * @param arr        待排数组
      * @param sortMethod asc:升序   desc：降序
      */
     public static void sort(int[] arr, String sortMethod) {
-        if("asc".equals(sortMethod)){
+        if ("asc".equals(sortMethod)) {
             for (int j = 0; j < arr.length - 1; j++) {
                 for (int i = 0; i < arr.length - 1 - j; i++) {
                     if (arr[i] > arr[i + 1]) {
@@ -141,7 +142,7 @@ public class MyArrays {
                     }
                 }
             }
-        }else if("desc".equals(sortMethod)) {
+        } else if ("desc".equals(sortMethod)) {
             for (int j = 0; j < arr.length - 1; j++) {
                 for (int i = 0; i < arr.length - 1 - j; i++) {
                     if (arr[i] < arr[i + 1]) {
@@ -149,7 +150,7 @@ public class MyArrays {
                     }
                 }
             }
-        }else {
+        } else {
             System.out.println("输入有误");
         }
     }

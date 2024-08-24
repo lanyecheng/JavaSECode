@@ -14,15 +14,15 @@ public interface CompareA {
     }
 
     //方法：jdk8中：默认方法
-    public default void method2(){
+    public default void method2() {
         System.out.println("CompareA:上海");
     }
 
-    public default void method3(){
+    public default void method3() {
         System.out.println("CompareA:广州");
     }
 
-    public default void method4(){
+    public default void method4() {
         System.out.println("CompareA:深圳");
     }
     // jdk9新特性：定义私有方法

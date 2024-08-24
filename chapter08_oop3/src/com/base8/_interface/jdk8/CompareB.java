@@ -5,7 +5,7 @@ package com.base8._interface.jdk8;
  * @Date 2023/8/24
  */
 public interface CompareB {
-    public default void method3(){
+    public default void method3() {
         System.out.println("CompareB:广州");
     }
 }

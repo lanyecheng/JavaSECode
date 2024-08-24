@@ -10,8 +10,8 @@ public class TemplateMethodTest {
         btm1.process();
 
         System.out.println("-------------");
+
         BankTemplateMethod btm2 = new ManagMoney();
         btm2.process();
-
     }
 }

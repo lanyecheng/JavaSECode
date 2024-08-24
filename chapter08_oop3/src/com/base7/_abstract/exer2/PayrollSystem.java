@@ -25,6 +25,5 @@ public class PayrollSystem {
             }
         }
         scan.close();
-
     }
 }

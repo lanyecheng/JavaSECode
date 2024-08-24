@@ -11,16 +11,16 @@ package com.base8._interface.apply;
 public class USBTest {
 
     public static void main(String[] args) {
+        Computer computer =  new Computer();
 
         //1.创建接口实现类的对象
-        Computer computer =  new Computer();
         Printer printer = new Printer();
-
         computer.transferData(printer);
+        System.out.println("--------------");
 
         //2.创建接口实现类的匿名对象
         computer.transferData(new Camera());
-        System.out.println();
+        System.out.println("--------------");
 
         //3.创建接口匿名实现类的对象
         USB usb1 = new USB(){
@@ -32,9 +32,9 @@ public class USBTest {
             }
         };
         computer.transferData(usb1);
+        System.out.println("--------------");
 
         //4. 创建接口匿名实现类的匿名对象
-
         computer.transferData(new USB(){
             public void start(){
                 System.out.println("扫描仪开始工作");
@@ -43,22 +43,16 @@ public class USBTest {
                 System.out.println("扫描仪结束工作");
             }
         });
-
     }
-
 }
 
 class Computer{
-
     public void transferData(USB usb){ //多态：USB usb = new Printer();
         System.out.println("设备连接成功....");
         usb.start();
-
         System.out.println("数据传输的细节操作....");
-
         usb.stop();
     }
-
 }
 
 class Camera implements USB{
@@ -90,7 +84,6 @@ class Printer implements USB{
 interface USB{
     //声明常量
     //USB的长、宽、高、...
-
 
     //方法
     public abstract void start();

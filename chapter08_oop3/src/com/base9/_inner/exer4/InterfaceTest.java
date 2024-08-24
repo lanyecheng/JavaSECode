@@ -1,8 +1,10 @@
-package com.base8._interface;
+package com.base9._inner.exer4;
 
 /**
  * @Author myf15609
- * @Date 2023/8/23
+ * @Date 2024/8/24
+ * 匿名内部类就是一种局部内部类，在java中匿名内部类是一种特殊的内部类，它没有名称，
+ * 匿名内部类通常用于创建简单的类，并且只使用一次
  */
 public class InterfaceTest {
     public static void main(String[] args) {
@@ -11,11 +13,11 @@ public class InterfaceTest {
         // 1. 创建接口实现类的对象
         Flash flash = new Flash();
         computer.transferData(flash);
-        System.out.println("--------------------");
+        System.out.println("------------");
 
         // 2. 创建接口实现类的匿名对象
         computer.transferData(new Printer());
-        System.out.println("--------------------");
+        System.out.println("------------");
 
         // 3. 创建接口匿名实现类的对象
         Usb iphone = new Usb() {
@@ -30,7 +32,7 @@ public class InterfaceTest {
             }
         };
         computer.transferData(iphone);
-        System.out.println("--------------------");
+        System.out.println("------------");
 
         // 4. 创建接口匿名实现类的匿名对象
         computer.transferData(new Usb() {

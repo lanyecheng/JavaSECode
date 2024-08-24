@@ -16,7 +16,6 @@ public class ExceptionTest {
     public void test_01() {
         int[] arr = new int[10];
         System.out.println(arr[10]);
-
     }
 
     // NullPointerException

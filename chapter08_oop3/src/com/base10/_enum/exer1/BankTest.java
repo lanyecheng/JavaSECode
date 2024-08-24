@@ -11,13 +11,13 @@ public class BankTest {
     }
 }
 
+// JDK5.0 之后使用 enum 枚举类的方式，定义单例模式
 enum bank {
     BANK;
 }
 
 enum GirlFriend {
     ZHANG_SAN(20);
-
 
     private final int age;
 
