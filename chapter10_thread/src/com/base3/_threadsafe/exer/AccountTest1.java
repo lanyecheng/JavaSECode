@@ -32,7 +32,7 @@ class Account1 {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(Thread.currentThread().getName() + "-存1000元，余额为：" + balance);
+        System.out.println(Thread.currentThread().getName() + "-存" + amt + "元，余额为：" + balance);
     }
 }
 

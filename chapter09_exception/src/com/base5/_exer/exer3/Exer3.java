@@ -9,7 +9,7 @@ public class Exer3 {
         try {
             Person p1 = new Person("Tom", -10);
             System.out.println(p1);
-        }catch (NoLifeValueException e) {
+        } catch (NoLifeValueException e) {
             System.out.println(e.getMessage());
         }
 

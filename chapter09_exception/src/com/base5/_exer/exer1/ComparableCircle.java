@@ -13,14 +13,14 @@ public class ComparableCircle extends Circle implements CompareObject {
     }
 
     @Override
-    public int compareTo(Object o) throws Exception{
+    public int compareTo(Object o) throws Exception {
         if (this == o) {
             return 0;
         }
         if (o instanceof ComparableCircle) {
             ComparableCircle c = (ComparableCircle) o;
             return Double.compare(this.getRadius(), c.getRadius());
-        }else {
+        } else {
             throw new Exception("输入的类型不匹配");
         }
     }

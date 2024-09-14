@@ -25,7 +25,6 @@ class SaleTicket implements Runnable {
                 }
             }
         }
-
     }
 }
 

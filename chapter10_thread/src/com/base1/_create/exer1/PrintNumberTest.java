@@ -17,7 +17,6 @@ class EvenNumberPrint extends Thread {
                 System.out.println(Thread.currentThread().getName() + ":" + i);
             }
         }
-
     }
 }
 

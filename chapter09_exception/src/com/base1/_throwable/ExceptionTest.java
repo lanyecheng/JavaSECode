@@ -23,7 +23,7 @@ public class ExceptionTest {
     public void test_02() {
         String str = "hello";
         str = null;
-        System.out.println(str.toString());
+        System.out.println(str);
 
         int[][] arr = new int[10][];
         System.out.println(arr[0][0]);
@@ -61,5 +61,4 @@ public class ExceptionTest {
         int num = 10;
         System.out.println(num / 0);
     }
-
 }
